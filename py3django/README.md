@@ -71,4 +71,18 @@ WARNING: Image for service web was built because it did not already exist. To re
 ```
 docker-compose up
 ```
+```
+Creating py3django_web_1 ... done
+Attaching to py3django_web_1
+web_1  | Performing system checks...
+web_1  | 
+web_1  | System check identified no issues (0 silenced).
+web_1  | 
+web_1  | You have 14 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+web_1  | Run 'python manage.py migrate' to apply them.
+web_1  | February 14, 2018 - 03:10:19
+web_1  | Django version 2.0.2, using settings 'mysite.settings'
+web_1  | Starting development server at http://0:8080/
+web_1  | Quit the server with CONTROL-C.
 
+```
